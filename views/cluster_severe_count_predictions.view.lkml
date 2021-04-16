@@ -16,8 +16,8 @@ view: cluster_severe_count_predictions {
   }
 
   dimension: accident_date {
-    type: date
-    sql: parse_date('%Y-%b-%d', CONCAT(${accident_year},'-',${accident_month},'-01') ) ;;
+    type: string
+    sql: string(parse_date('%Y-%b-%d', CONCAT(${accident_year},'-',${accident_month},'-01') )) ;;
     hidden: yes
   }
 
@@ -36,7 +36,7 @@ view: cluster_severe_count_predictions {
     ]
     convert_tz: no
     datatype: date
-    sql: ${accident_date} ;;
+    sql: datetime(${accident_date}) ;;
   }
 
   dimension: ae {
