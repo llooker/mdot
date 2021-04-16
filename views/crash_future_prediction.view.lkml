@@ -22,8 +22,8 @@ view: crash_future_prediction {
   }
 
   dimension: accident_date {
-    type: date
-    sql: parse_date('%Y-%b-%d', CONCAT(${accident_year},'-',${accident_month},'-01') ) ;;
+    type: string
+    sql: string(parse_date('%Y-%b-%d', CONCAT(${accident_year},'-',${accident_month},'-01') )) ;;
     hidden: yes
   }
 
@@ -36,7 +36,7 @@ view: crash_future_prediction {
     ]
     convert_tz: no
     datatype: date
-    sql: ${accident_date} ;;
+    sql: datetime(${accident_date}) ;;
   }
 
   dimension: ae {
