@@ -1,5 +1,5 @@
 view: road_count_predictions {
-  sql_table_name: `mi-dept-of-transportation.MDOT_Processed.road_count_predictions`
+  sql_table_name: `lookerdata.MDOT_Processed.road_count_predictions`
     ;;
 
   dimension: compound_primary_key {

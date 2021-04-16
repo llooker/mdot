@@ -1,5 +1,5 @@
 view: highway_future_prediction {
-  sql_table_name: `mi-dept-of-transportation.MDOT_Processed.highway_future_prediction`
+  sql_table_name: `lookerdata.MDOT_Processed.highway_future_prediction`
     ;;
 
   dimension: compound_primary_key {

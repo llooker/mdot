@@ -1,5 +1,5 @@
 view: mdot_regions {
-  sql_table_name: `mi-dept-of-transportation.reference.mdot_regions`
+  sql_table_name: `lookerdata.reference.mdot_regions`
     ;;
 
   dimension: geom {

@@ -1,5 +1,5 @@
 view: mdot_looker {
- sql_table_name: `mi-dept-of-transportation.MDOT_Processed.mdot_looker`
+ sql_table_name: `lookerdata.MDOT_Processed.mdot_looker`
 
     ;;
 
