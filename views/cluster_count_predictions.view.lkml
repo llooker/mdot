@@ -1,5 +1,5 @@
 view: cluster_count_predictions {
-  sql_table_name: `lookerdata.cluster_count_predictions`
+  sql_table_name: `lookerdata.mdot.cluster_count_predictions`
     ;;
 
   dimension: compound_primary_key {

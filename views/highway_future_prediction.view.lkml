@@ -1,5 +1,5 @@
 view: highway_future_prediction {
-  sql_table_name: `lookerdata.highway_future_prediction`
+  sql_table_name: `lookerdata.mdot.highway_future_prediction`
     ;;
 
   dimension: compound_primary_key {

@@ -1,5 +1,5 @@
 view: severe_crash_future_prediction {
-  sql_table_name: `lookerdata.severe_crash_future_prediction`
+  sql_table_name: `lookerdata.mdot.severe_crash_future_prediction`
     ;;
 
   dimension: compound_primary_key {

@@ -1,5 +1,5 @@
 view: mdot_looker {
- sql_table_name: `lookerdata.mdot_looker`
+ sql_table_name: `lookerdata.mdot.mdot_looker`
 
     ;;
 

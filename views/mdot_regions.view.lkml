@@ -1,5 +1,5 @@
 view: mdot_regions {
-  sql_table_name: `lookerdata.mdot_regions`
+  sql_table_name: `lookerdata.mdot.mdot_regions`
     ;;
 
   dimension: geom {
