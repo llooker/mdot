@@ -36,7 +36,7 @@ view: cluster_count_predictions {
     ]
     convert_tz: no
     datatype: date
-    sql: ${accident_date} ;;
+    sql: datetime(${accident_date}) ;;
   }
 
   dimension: ae {
