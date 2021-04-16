@@ -1,5 +1,5 @@
 view: cluster_details {
-  sql_table_name: `lookerdata.MDOT_Processed.cluster_details`
+  sql_table_name: `lookerdata.cluster_details`
     ;;
 
   dimension: cluster_area {

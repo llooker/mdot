@@ -1,5 +1,5 @@
 view: mdot_county_region_lookup {
-  sql_table_name: `lookerdata.reference.mdot_county_region_lookup`
+  sql_table_name: `lookerdata.mdot_county_region_lookup`
     ;;
 
   dimension: county_fips_code {

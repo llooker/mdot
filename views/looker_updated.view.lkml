@@ -1,5 +1,5 @@
 view: looker_updated {
-  sql_table_name: `lookerdata.MDOT_Processed.looker_updated`
+  sql_table_name: `lookerdata.looker_updated`
     ;;
     label: "Crash Count"
 
