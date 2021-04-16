@@ -24,7 +24,7 @@ view: mdot_regions {
     case_sensitive: yes
     link: {
       label: "Regional Details Dashboard"
-      url: "/dashboards-next/9?Region+Name={{ filterable_value | upcase }}"
+      url: "/dashboards-next/dl_mdot_crash_analysis::5_mdot_crash_regional_analysis?Region+Name={{ filterable_value | upcase }}"
     }
   }
 
